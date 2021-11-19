@@ -19,7 +19,7 @@ class CashbackHackServiceTest {
     @Test
     public void ShouldCalculateRemain2() {
         CashbackHackService service = new CashbackHackService();
-        int expected = 1000;
+        int expected = 0;
         int actual = service.remain(1000);
         assertEquals(expected, actual, "wrong remain");
 
